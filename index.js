@@ -2,7 +2,7 @@ const express = require('express');
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 const bodyParser = require('body-parser');
-const router = require('../src/food_delivery/router');
+const router = require('./src/food_delivery/router');
 
 const app = express();
 
